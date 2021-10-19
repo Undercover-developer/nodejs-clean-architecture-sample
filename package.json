@@ -1,0 +1,27 @@
+{
+  "name": "Clean-architecture-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "axios": "^0.21.1",
+    "cloudinary": "^1.25.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.14",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.19.2",
+    "randomstring": "^1.1.5"
+  }
+}
